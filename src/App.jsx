@@ -91,7 +91,7 @@ function App() {
   }
 
   return (
-    <div className="flex">
+    <div className="flex bg-black h-screen overflow-hidden">
       <Sidebar setActiveSection={setActiveSection} />
 
       {selectedWorkspace ? (
