@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Workspace from "./pages/Workspace";
 import Sidebar from "./components/Sidebar";
-import { supabase } from "./services/supabase";
+import { supabase } from "./services/Supabase";
 
 function App() {
   const [session, setSession] = useState(null);
